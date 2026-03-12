@@ -22,8 +22,10 @@ venv/
 
 # Data artifacts
 # Keep this line if you don't want to commit large datasets
-data/
-external/
+data/*
+!data/.gitkeep
+external/*
+!external/.gitkeep
 docs/
 PDFs/
 
