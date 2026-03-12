@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Conda local artifacts
+.conda_pkgs/
+.conda_envs/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data artifacts
+# Keep this line if you don't want to commit large datasets
+data/
+external/
+docs/
+PDFs/
+
+# Logs and outputs
+*.log
+results/
+outputs/
