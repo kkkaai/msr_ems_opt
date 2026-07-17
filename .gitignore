@@ -24,6 +24,7 @@ venv/
 # Keep this line if you don't want to commit large datasets
 data/*
 !data/.gitkeep
+!data/kit_superquadric_labels.csv
 external/*
 !external/.gitkeep
 docs/
@@ -33,3 +34,24 @@ PDFs/
 *.log
 results/
 outputs/
+**/results/
+**/outputs/
+**/logs/
+runs/
+
+# Paper/review working files
+overleaf/
+reviewer_response/
+review.txt
+ref/
+old/
+analysis/
+*.pdf
+*.eps
+*.jpg
+*.png
+
+# Local generated assets/caches
+__pycache__/
+.DS_Store
+*.zip
